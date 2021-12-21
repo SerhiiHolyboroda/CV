@@ -1,0 +1,63 @@
+body{
+    width: 800px;
+}
+.header{
+    display: flex;
+     .photo{
+        margin-left: 50px;
+     width: 230px;
+     height: 230px;
+     border-radius: 5px;
+    }
+    .generalInfo{
+        width: 400px;
+        height: 190px;
+        margin-left: 130px;
+       background-color: rgba(205,97,97,255) ;
+     .textM{
+        margin-top: 10px;
+        margin-left: 30px;
+         color: white;
+         font-size: larger;
+     }
+     .textS{
+         margin-top: 10px;
+        margin-left: 30px;
+        color: white;
+        font-size: large;
+    }
+    }
+}
+
+.main{
+display: flex;
+    .leftColumn{
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+    .rightColumn{
+        margin-left: 130px;
+        .experience{
+            .Education{
+                .ed{
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    margin-bottom: 5px;
+                }
+                .info1 , .info2, .info3{
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+    .Courses{
+        .c{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-bottom: 5px;
+        }
+        .course1 , .course2{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-bottom: 5px;
+        }
+    }
+}

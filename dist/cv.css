@@ -1,0 +1,58 @@
+body {
+  width: 800px;
+}
+
+.header {
+  display: flex;
+}
+.header .photo {
+  margin-left: 50px;
+  width: 230px;
+  height: 230px;
+  border-radius: 5px;
+}
+.header .generalInfo {
+  width: 400px;
+  height: 190px;
+  margin-left: 130px;
+  background-color: #cd6161;
+}
+.header .generalInfo .textM {
+  margin-top: 10px;
+  margin-left: 30px;
+  color: white;
+  font-size: larger;
+}
+.header .generalInfo .textS {
+  margin-top: 10px;
+  margin-left: 30px;
+  color: white;
+  font-size: large;
+}
+
+.main {
+  display: flex;
+}
+.main .leftColumn {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.main .rightColumn {
+  margin-left: 130px;
+}
+.main .rightColumn .experience .Education .ed {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 5px;
+}
+.main .rightColumn .experience .Education .info1, .main .rightColumn .experience .Education .info2, .main .rightColumn .experience .Education .info3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 5px;
+}
+.main .Courses .c {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 5px;
+}
+.main .Courses .course1, .main .Courses .course2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 5px;
+}
